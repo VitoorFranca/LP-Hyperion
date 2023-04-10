@@ -34,7 +34,7 @@ function App() {
                 validVariant="outlined"
                 //@ts-ignore}
                 target="_blank"
-                href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_PHONE_NUMBER}`}
+                href={`https://wa.me/${process.env.REACT_APP_WHATSAPP_PHONE_NUMBER}`}
                 rel="noreferrer"
               >
                 Solicitar reunião online

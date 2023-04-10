@@ -50,7 +50,7 @@ const Form = ({ }: Props) => {
             email,
             message,
             phone: values.phone
-            }, process.env.NEXT_PUBLIC_PUBLIC_KEY);
+            }, process.env.REACT_APP_PUBLIC_KEY);
 
         reset({email: '', empresa: '', message: '', nome: ''});
         setInvalidPhone(false);
