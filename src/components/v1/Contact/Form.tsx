@@ -44,7 +44,7 @@ const Form = ({ }: Props) => {
 
         if(!values.phone) return setInvalidPhone(true);
 
-        send("service_fbsvw5f","template_hhq3zu9",{
+        send("service_4d60g5l","template_mlpzjvp",{
             nome,
             empresa,
             email,
